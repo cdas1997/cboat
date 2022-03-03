@@ -1,0 +1,72 @@
+
+.div1{
+    display: flex;
+    color: rgb(10, 46, 25);
+    float: left;
+    margin-left: 35px;
+    background-color: rgb(230, 230, 230);
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 450px;
+    
+    margin-bottom: 25px;
+    border-radius: 15px;
+    margin-top: 45px;
+    border-color: #ff0000;
+    
+}
+
+
+
+.Dimg{
+    height: 250px;
+    width: 350px;
+    margin-left: 25px;
+    margin-top: 15px;
+    background-color: rgb(187, 194, 194);
+ border-radius: 15px;
+ transition: all .5s ease-in-out;
+    
+}
+.Dimg:hover{
+    height: 280px;
+
+    background-color: rgb(187, 194, 194);
+ border-radius: 15px;
+    
+}
+.Dlink{
+    color: #ff0000;
+
+}
+.Dbutn{
+    margin-right: 20px;
+    border: #ff0000;
+  
+}
+.Dcontainer{
+    background-color: black;
+    margin-bottom: 0px;
+}
+.pagepath1{
+    color: #c7b3b3;
+    text-align: left;
+    margin-bottom: 0rem;
+}
+.Ddescription{
+    color:#aa1616;
+}
+.pagination1{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    float: left;
+    margin-left: 550px;
+    color: #ff0000 !important;
+    display: flex;
+    flex-direction: row;
+    
+}
+.pagination{
+    color: #ff0000 !important;
+  
+}

@@ -1,0 +1,225 @@
+{"ShopProducts":
+               [{"catagory":"Wireless Earbuds",
+                 "catagory_id":"p01",
+                
+                 
+                 "sub_catagory":
+                 [
+                     {
+                         "sub_catagory_id":"we01",
+                         "sub_name":"boAt Airdopes 131 - Wireless Earbuds",
+                         "sub_image1":"../../../Images/we01.webp",
+                         "sub_image2":"",
+                         "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                         "sub_price":"Rs. 1,299.00"
+                     },
+                     
+                     {
+                        "sub_catagory_id":"we02",
+                        "sub_name":"boAt Airdopes 141",
+                        "sub_image1":"../../../Images/we02.webp",
+                        "sub_image2":"",
+                        "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                        "sub_price":"Rs. 1,499.00"
+                    },
+                    
+                    {
+                        "sub_catagory_id":"we03",
+                        "sub_name":"TRebel Airdopes 131",
+                        "sub_image1":"../../../Images/we03.webp",
+                        "sub_image2":"",
+                        "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                        "sub_price":"Rs. 1,299.00"
+                    },
+                    
+                    {
+                        "sub_catagory_id":"we04",
+                        "sub_name":"boAt Airdopes 451v2",
+                        "sub_image1":"../../../Images/we04.webp",
+                        "sub_image2":"",
+                        "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                        "sub_price":"Rs. 2,999.00"
+                    }
+                 ] },
+
+                 {"catagory":"Wireless Headphones",
+                    "catagory_id":"p02",
+                   
+                    
+                    "sub_catagory":
+                    [
+                        {
+                            "sub_catagory_id":"wh01",
+                            "sub_name":"boAt Rockerz 245 V2",
+                            "sub_image1":"../../../Images/wh01.webp",
+                            "sub_image2":"",
+                            "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                            "sub_price":"Rs. 1,199.00"
+                        },
+                        
+                        {
+                           "sub_catagory_id":"wh02",
+                           "sub_name":"boAt Rockerz 235 V2",
+                           "sub_image1":"../../../Images/wh02.webp",
+                           "sub_image2":"",
+                           "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                           "sub_price":"Rs. 999.00"
+                       },
+                       {
+                        "sub_catagory_id":"wh03",
+                        "sub_name":"boAt Rockerz 330",
+                        "sub_image1":"../../../Images/wh03.webp",
+                        "sub_image2":"",
+                        "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                        "sub_price":"Rs. 1,399.00"
+                    },
+                    
+                    {
+                       "sub_catagory_id":"wh04",
+                       "sub_name":"boAt Rockerz 255 Pro",
+                       "sub_image1":"../../../Images/wh04.webp",
+                       "sub_image2":"",
+                       "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                       "sub_price":"Rs. 1,399.00"
+                   }
+                    ] },
+
+
+                    {"catagory":"Smart Watches",
+                        "catagory_id":"p03",
+                       
+                        
+                        "sub_catagory":
+                        [
+                            {
+                                "sub_catagory_id":"sw01",
+                                "sub_name":"boAt Watch Xtend",
+                                "sub_image1":"../../../Images/sw01.webp",
+                                "sub_image2":"",
+                                "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                                "sub_price":"Rs. 3,499.00"
+                            },
+                            
+                            {
+                                "sub_catagory_id":"sw02",
+                                "sub_name":"boAt Storm",
+                                "sub_image1":"../../../Images/sw02.webp",
+                                "sub_image2":"",
+                                "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                                "sub_price":"Rs. 2,499.00"
+                            },
+                            
+                            {
+                                "sub_catagory_id":"sw03",
+                                "sub_name":"Watch Blaze",
+                                "sub_image1":"../../../Images/sw01.webp",
+                                "sub_image2":"",
+                                "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                                "sub_price":"Rs. 3,499.00"
+                            },
+                            
+                            {
+                                "sub_catagory_id":"sw04",
+                                "sub_name":"boAt Watch Flash",
+                                "sub_image1":"../../../Images/sw01.webp",
+                                "sub_image2":"",
+                                "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                                "sub_price":"Rs. 2,999.00"
+                            }
+                            
+                            
+                        ] },
+
+                        {"catagory":"Wired Earphones",
+                            "catagory_id":"p04",
+                           
+                            
+                            "sub_catagory":
+                            [
+                                {
+                                    "sub_catagory_id":"wr01",
+                                    "sub_name":"boAt BassHeads 100",
+                                    "sub_image1":"../../../Images/wr01.webp",
+                                    "sub_image2":"",
+                                    "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                                    "sub_price":"Rs. 399.00"
+                                },
+                                {
+                                    "sub_catagory_id":"wr02",
+                                    "sub_name":"TRebel BassHeads 100",
+                                    "sub_image1":"../../../Images/wr02.webp",
+                                    "sub_image2":"",
+                                    "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                                    "sub_price":"Rs. 399.00"
+                                },
+                                {
+                                    "sub_catagory_id":"wr03",
+                                    "sub_name":"boAt BassHeads 225",
+                                    "sub_image1":"../../../Images/wr03.webp",
+                                    "sub_image2":"",
+                                    "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                                    "sub_price":"Rs. 399.00"
+                                },
+                                {
+                                    "sub_catagory_id":"wr04",
+                                    "sub_name":"boAt BassHeads 242",
+                                    "sub_image1":"../../../Images/wr04.webp",
+                                    "sub_image2":"",
+                                    "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                                    "sub_price":"Rs. 399.00"
+                                }
+                                
+                               
+                                
+                                
+                            ] },
+
+
+                            {"catagory":"Wireless Speakers",
+                                "catagory_id":"p05",
+                               
+                                
+                                "sub_catagory":
+                                [
+                                    {
+                                        "sub_catagory_id":"ws01",
+                                        "sub_name":"Stone Grenade",
+                                        "sub_image1":"../../../Images/ws01.webp",
+                                        "sub_image2":"",
+                                        "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                                        "sub_price":"Rs. 1,199.00"
+                                    },
+                                    {
+                                        "sub_catagory_id":"ws02",
+                                        "sub_name":"BOAT Stone 350",
+                                        "sub_image1":"../../../Images/ws02.webp",
+                                        "sub_image2":"",
+                                        "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                                        "sub_price":"Rs. 1,499.00"
+                                    },
+                                    {
+                                        "sub_catagory_id":"ws03",
+                                        "sub_name":"boAt Party Pal 50",
+                                        "sub_image1":"../../../Images/ws03.webp",
+                                        "sub_image2":"",
+                                        "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                                        "sub_price":"Rs. 3,999.00"
+                                    },
+                                    {
+                                        "sub_catagory_id":"ws04",
+                                        "sub_name":"BOAT Stone 180",
+                                        "sub_image1":"../../../Images/ws04.webp",
+                                        "sub_image2":"",
+                                        "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                                        "sub_price":"Rs. 999.00"
+                                    }
+                                    
+                                   
+                                    
+                                    
+                                ] }
+                     
+                 
+                 
+               
+  ] } 
