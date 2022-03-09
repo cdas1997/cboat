@@ -71,6 +71,78 @@
               "descripsion":"Blutooth Earphone",
               "P_Image":"../../../../Images/p12.png",
               "P_price":"Rs. 1,199.00"
-            }
+            },
+            {"P_name":"boAt Airdopes 131 - Wireless Earbuds",
+              "P_id":"p0=13",
+              "descripsion":"Blutooth Headphone",
+              "P_Image":"../../../../Images/p1.png",
+              "P_price":"Rs. 1,299.00"
+            },
+            {"P_name":"boAt Rockerz 330",
+                "P_id":"p14",
+                "descripsion":"Blutooth Earphone",
+                "P_Image":"../../../../Images/p2.png",
+                "P_price":"Rs. 1,399.00"
+              },
+              {"P_name":"Stone 260",
+                "P_id":"p15",
+                "descripsion":"Blutooth Speaker",
+                "P_Image":"../../../../Images/p3.png",
+                "P_price":"Rs. 1,299.00"
+              },
+              {"P_name":"boAt Rockerz 450",
+                "P_id":"p16",
+                "descripsion":"Blutooth Earphone",
+                "P_Image":"../../../../Images/p4.png",
+                "P_price":"Rs. 1,499.00"
+              },
+              {"P_name":"boAt Rockerz 255",
+                  "P_id":"p17",
+                  "descripsion":"Blutooth Earphone",
+                  "P_Image":"../../../../Images/p5.png",
+                  "P_price":"Rs. 1,299.00"
+                },
+                {"P_name":"Stone 1200",
+                  "P_id":"p18",
+                  "descripsion":"Blutooth Speaker",
+                  "P_Image":"../../../../Images/p6.png",
+                  "P_price":"Rs. 3,299.00"
+                },
+                {"P_name":"boAt Rockerz 255 Pro",
+                    "P_id":"p19",
+                    "descripsion":"Blutooth Earphone",
+                    "P_Image":"../../../../Images/p7.png",
+                    "P_price":"Rs. 1,399.00"
+                  },
+                  {"P_name":"boAt Rockerz 550",
+                      "P_id":"p20",
+                      "descripsion":"Blutooth Headphone",
+                      "P_Image":"../../../../Images/p8.png",
+                      "P_price":"Rs. 1,999.00"
+                    },
+                    {"P_name":"boAt BassHeads 242",
+                      "P_id":"p21",
+                      "descripsion":"Wired Earphone",
+                      "P_Image":"../../../../Images/p9.png",
+                      "P_price":"Rs. 549.00"
+                    },
+                    {"P_name":"BOAT Airdopes 441 - Wireless Earbuds",
+                        "P_id":"p22",
+                        "descripsion":"Wireless Earbuds",
+                        "P_Image":"../../../../Images/p10.png",
+                        "P_price":"Rs. 2,499.00"
+                      },
+                      {"P_name":"boAt BassHeads 242",
+                          "P_id":"p23",
+                          "descripsion":"Wired Earphone",
+                          "P_Image":"../../../../Images/p11.png",
+                          "P_price":"Rs. 549.00"
+                        },
+                        {"P_name":"boAt Rockerz 245 V2",
+                          "P_id":"p24",
+                          "descripsion":"Blutooth Earphone",
+                          "P_Image":"../../../../Images/p12.png",
+                          "P_price":"Rs. 1,199.00"
+                        }
 ]
 }

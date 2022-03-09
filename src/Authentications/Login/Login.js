@@ -1,11 +1,14 @@
 import React from 'react';
 import {useFormik} from 'formik'
 import axios from 'axios';
+import {Nav} from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import './Login.scss';
 import { useNavigate } from 'react-router-dom';
 
 export default function Login() {
     const navigate=useNavigate();
+   
 
     const ValidateLoginForm=(formValue)=>{
         const errors={};
@@ -36,11 +39,11 @@ export default function Login() {
                                           onSubmit:(values)=>{
                                             console.log("received1 values",values);
                                            
-                                            axios.post('https://project-node-1.herokuapp.com/postLoginData',values)
+                                            axios.post('https://node-project-storage.herokuapp.com/postLoginData',values)
                                             .then(res=>{console.log("axios res:",res);
                                         window.localStorage.setItem("Token",res.data.token);
                                         window.localStorage.setItem("username",res.data.result.userName);
-                                        alert('logged in successfully');
+                                        alert('You are logged in successfully');
                                     navigate('/gift-cards');})
                                             .catch(eror=>{console.log("error in axios:",eror);})
                                           }});
@@ -74,7 +77,7 @@ export default function Login() {
 <br />
         <button type="submit" disabled={!formik.isValid && formik.dirty} className="btn btn-primary btn-block" id='loginbtn'>Login</button>
         <p className="forgot-password text-right">
-            {/* Already registered? <Nav.Link as={Link} to="/login"> LogIn here</Nav.Link> */}
+         <Nav.Link as={Link} to="/registration" className='loghere'> Create Account</Nav.Link>
         </p>
         </form>
 

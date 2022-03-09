@@ -3,6 +3,9 @@
     background: #ff0000;
     color: #ffffff;
   }
+  .announcement__inner:hover{
+    color: black !important;
+  }
   
   .announcement {
     font-size: 11.8px;
@@ -14,7 +17,7 @@
       display: block;
       color: inherit;
       text-decoration: none;
-      transition: background 100ms; }
+      transition: 100ms; }
     .announcement a:hover {
       background: rgba(255, 255, 255, 0.1);
       text-decoration: none; }
@@ -23,10 +26,12 @@
   
       .logo{
      margin-right: 250px;
-     margin-left: 0px;
+     margin-left: 20px;
      padding-left: 0px;
      padding-bottom: 10px;
+    
       }
+    
       .nvitem{
          color: white;
          font-size: 15px;
@@ -38,7 +43,35 @@
         // width: 110%;
         // margin: 0px;
         // padding: 0px;
+        
      }
+     .nvitem1s{
+      color: white;
+      font-size: 15px;
+      max-width: 160px;
+      // height: 105%;
+      // width: 110%;
+      // margin: 0px;
+      // padding: 0px;
+      margin-left: 1px;
+      border-radius: 15px !important;
+      border-color: #ff0000 !important;
+      border: solid red 1px;
+      border-width: 1.5px;
+      transition: all .5s ease-in-out;
+     
+    
+   }
+   
+   .nvitem1s:hover{
+    color:#ff0000;
+    background-color: black;
+    border: dotted red 2px;
+    margin-left: 25px;
+}
+.nvitemhs{
+  margin-left: 2px;
+}
       .nvitem1:hover{
           color:#ff0000;
           background-color: black;
@@ -46,23 +79,63 @@
       }
       .nvbr{
           background-color: black;
+        padding-top: 5px;
+        padding-bottom: 5px;
       }
       .dropmenu{
         background-color: black;
+  
       }
       .nvitemh:hover{
 background-color: black;
       }
+
+      
+      .nvitemhs:hover{
+        background-color: black;
+              }
+
       .search{
+       
+        margin-right: 5px;
+     
+       
+      }
+      .dropmenu1{
+        background-color: black;
+        height: 280px;
+        width: 240px;
+      }
+      .search1{
         border-radius: 40px;
-        margin-right: 25px;
+     
         height: 40px;
-        width: 380px;
+        width: 250px;
       
         font-family: sans-serif;
         font-weight: 500;
+        margin-left: 10px;
         
       }
+      .drptogsearch{
+     background-color: transparent !important;
+     color: transparent !important;
+     height: 50px;
+    
+     padding: none !important;
+     border-radius: 0px !important;
+     margin-top: 0px !important;
+     border: none !important;
+ 
+      }
+      
+      .drptogsearch:hover{
+        background-color: transparent !important;
+        color: transparent !important;
+        border-color: none !important;
+        border-radius: 0px !important;
+      }
+      
       
       .mglass{
         margin-right: 80px;
@@ -118,6 +191,7 @@ background-color: black;
   .drptog{
 background-color: black !important;
 border:none;
+
   }
   .drptog1{
     border:none;
@@ -132,46 +206,50 @@ border:none;
   
 
 
-.shopitem{
+#shopitem{
   background-color: black;
-  max-width: 1500px;
-  max-height: 1500px;
+  max-width: 1450px;
+  max-height: 1450px;
   display: flex !important;
   float: left;
-margin-top: -10px;
-margin-bottom: -10px;
-line-height: 11;
-
-
+margin-top: 5px;
+margin-bottom: 5px;
+line-height: 1px;
+margin-left: 100px;
+margin-right: 40px;
 
  
 }
-.shopimg{
-     max-height: 250px;
-     max-width: 250px;
-     transition: all .5s ease-in-out;
-  
-   }
-   .shopimg:hover{
-    max-height: 270px;
-    max-width: 270px;
-   }
-   .dropdown-menu.show{
+
+
+   .dropdown-menu.show1{
      margin-top: 26px;
      background-color: black;
-     margin-left: 0px !important;
+     
+    width: 1005px;
+    height: 500px;
+   
   
    }
    
    .butn{
-     color: #ff0000;
+     color: white;
      margin-left: 20px;
      margin-top: 10px;
+     background-color: #ff0000;
    }
    .active1{
-     background-color: #b32a2a;
+     background-color: #ff0000;
    }
+   .drop-items{
+
+    float: left;
+    width: 249px;
   
+  
+   }
+
+   
    
     
    

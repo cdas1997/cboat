@@ -1,6 +1,6 @@
 import React from 'react';
-// import {Nav} from 'react-bootstrap'
-// import { Link } from 'react-router-dom'
+import {Nav} from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import { useNavigate } from 'react-router-dom';
 import {useFormik} from 'formik';
 import axios from 'axios';
@@ -42,9 +42,9 @@ export default function Registration() {
                                           validate:ValidateForm,
                                           onSubmit:(values)=>{
                                               console.log("received values",values);
-                                              axios.post('https://project-node-1.herokuapp.com/postUserData',values)
+                                              axios.post('https://node-project-storage.herokuapp.com/postUserData',values)
                                               .then(res=>{console.log("axios res:",res);
-                                              alert('Registration completed');
+                                              alert('Your account has been created successfully');
                                               navigate('/login');})
                                               .catch(eror=>{console.log("error in axios:",eror);})
                                           }});
@@ -54,7 +54,7 @@ export default function Registration() {
             <div className='frm-bck2' >
             
             <form onSubmit={formik.handleSubmit}>
-                <h3>Registration</h3>
+                <h3>Create Account</h3>
 
                 <div className="form-group">
                     <label className='login1'>User name</label>
@@ -89,9 +89,10 @@ export default function Registration() {
              (<span style={{color:'red'}}>{formik.errors.password}</span>): null}
                 </div>
 <br />
-                <button type="submit" disabled={!formik.isValid && formik.dirty} className="btn btn-primary btn-block" id='regbtn'>Registration</button>
+                <button type="submit" disabled={!formik.isValid && formik.dirty} className="btn btn-primary btn-block" id='regbtn'>Create</button>
                 <p className="forgot-password text-right">
-                    {/* Already registered? <Nav.Link as={Link} to="/login"> LogIn here</Nav.Link> */}
+                    
+                    Already have an account? <Nav.Link as={Link} to="/login" className='loghere'> Login here</Nav.Link>
                 </p>
                 </form>
 

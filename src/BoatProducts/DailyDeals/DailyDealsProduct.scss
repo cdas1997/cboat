@@ -39,19 +39,47 @@
     color: #ff0000;
 
 }
+.Dlink:hover{
+    color: #ff0000;
+
+}
+.Dlink1{
+    color: white;
+}
+
+.Dlink1:hover{
+    color: white;
+}
 .Dbutn{
     margin-right: 20px;
-    border: #ff0000;
+    border:solid #ff0000 2px;
+    border-radius: 10px;
+    background-color: black;
   
 }
-.Dcontainer{
+.Dbutn:hover{
+    
+   
+    margin-right: 20px;
+    border:solid #ff0000 2px;
+    border-radius: 10px;
     background-color: black;
+  
+}
+
+.Dcontainer{
+    background-color: #050505 !important;
     margin-bottom: 0px;
+    
+
 }
 .pagepath1{
     color: #c7b3b3;
     text-align: left;
     margin-bottom: 0rem;
+    margin-left: 0px;
+    margin-top: 10px;
+    font-size: 17px;
 }
 .Ddescription{
     color:#aa1616;
@@ -64,9 +92,37 @@
     color: #ff0000 !important;
     display: flex;
     flex-direction: row;
+   
     
 }
 .pagination{
     color: #ff0000 !important;
+    padding: 10px;
+    background-color: transparent;
+    border-radius: 8px;
+    border-color: #ff0000;
+    transition: all .5s ease-in-out;
   
+}
+.pagination:hover{
+    padding: 12px;
+}
+.page-link{
+    background-color: #ff0000;
+}
+.page-link:hover{
+    background-color: #ff0000;
+}
+.page-link.active{
+    background-color: #ff0000 !important;
+}
+.pagepath2{
+    color: #ff0000 !important;
+    text-align: left;
+    margin-bottom: 0rem;   
+}
+.pagepath2:hover{
+    color: #ff0000 !important;
+    text-align: left;
+    margin-bottom: 0rem;
 }

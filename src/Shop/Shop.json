@@ -1,6 +1,7 @@
 {"ShopProducts":
                [{"catagory":"Wireless Earbuds",
                  "catagory_id":"p01",
+                 "img":"../../../Images/shop1.webp",
                 
                  
                  "sub_catagory":
@@ -44,7 +45,7 @@
 
                  {"catagory":"Wireless Headphones",
                     "catagory_id":"p02",
-                   
+                    "img":"../../../Images/shop2.webp",
                     
                     "sub_catagory":
                     [
@@ -87,7 +88,7 @@
 
                     {"catagory":"Smart Watches",
                         "catagory_id":"p03",
-                       
+                        "img":"../../../Images/shop3.webp",
                         
                         "sub_catagory":
                         [
@@ -132,7 +133,7 @@
 
                         {"catagory":"Wired Earphones",
                             "catagory_id":"p04",
-                           
+                            "img":"../../../Images/shop4.webp",
                             
                             "sub_catagory":
                             [
@@ -177,7 +178,7 @@
 
                             {"catagory":"Wireless Speakers",
                                 "catagory_id":"p05",
-                               
+                                "img":"../../../Images/shop5.webp",
                                 
                                 "sub_catagory":
                                 [
@@ -217,7 +218,272 @@
                                    
                                     
                                     
-                                ] }
+                                ] },
+
+                                {"catagory":"Home Audio",
+                                    "catagory_id":"p06",
+                                    "img":"../../../Images/shop6.webp",
+                                    
+                                    "sub_catagory":
+                                    [
+                                        {
+                                            "sub_catagory_id":"ha01",
+                                            "sub_name":"boAt Aavante Bar 550",
+                                            "sub_image1":"../../../Images/ha01.webp",
+                                            "sub_image2":"",
+                                            "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                                            "sub_price":"Rs. 1,999.00"
+                                        },
+                                        {
+                                            "sub_catagory_id":"ha02",
+                                            "sub_name":"Aavante Bar 1150",
+                                            "sub_image1":"../../../Images/ha02.webp",
+                                            "sub_image2":"",
+                                            "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                                            "sub_price":"Rs. 4,999.00"
+                                        },
+                                        {
+                                            "sub_catagory_id":"ha03",
+                                            "sub_name":"Aavante Bar 1160",
+                                            "sub_image1":"../../../Images/ha03.webp",
+                                            "sub_image2":"",
+                                            "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                                            "sub_price":"Rs. 4,499.00"
+                                        },
+                                        {
+                                            "sub_catagory_id":"ha04",
+                                            "sub_name":"boAt Aavante Bar 1400",
+                                            "sub_image1":"../../../Images/ha04.webp",
+                                            "sub_image2":"",
+                                            "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                                            "sub_price":"Rs. 9,990.00"
+                                        }
+                                        
+                                       
+                                        
+                                        
+                                    ] },
+
+                                    {"catagory":"Mobile Accessories",
+                                        "catagory_id":"p07",
+                                        "img":"../../../Images/shop7.webp",
+                                        
+                                        "sub_catagory":
+                                        [
+                                            {
+                                                "sub_catagory_id":"ma01",
+                                                "sub_name":"BOAT Mask",
+                                                "sub_image1":"../../../Images/ma01.webp",
+                                                "sub_image2":"",
+                                                "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                                                "sub_price":"Rs. 499.00"
+                                            },
+                                            {
+                                                "sub_catagory_id":"ma02",
+                                                "sub_name":"LTG 500 Indestructible Apple Certified Lightning Cable 1 Meter",
+                                                "sub_image1":"../../../Images/ma02.webp",
+                                                "sub_image2":"",
+                                                "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                                                "sub_price":"Rs. 599.00"
+                                            },
+                                            {
+                                                "sub_catagory_id":"ma03",
+                                                "sub_name":"Rugged V3 Micro USB 1.5 Meter",
+                                                "sub_image1":"../../../Images/ma03.webp",
+                                                "sub_image2":"",
+                                                "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                                                "sub_price":"Rs. 149.00"
+                                            },
+                                            {
+                                                "sub_catagory_id":"ma04",
+                                                "sub_name":"boAt WCD 20W PD Wall Charger",
+                                                "sub_image1":"../../../Images/ma04.webp",
+                                                "sub_image2":"",
+                                                "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                                                "sub_price":"Rs. 599.00"
+                                            }
+                                            
+                                           
+                                            
+                                            
+                                        ] },
+
+                                        {"catagory":"TRebel",
+                                            "catagory_id":"p08",
+                                            "img":"../../../Images/shop8.webp",
+                                            
+                                            "sub_catagory":
+                                            [
+                                                {
+                                                    "sub_catagory_id":"we03",
+                                                    "sub_name":"TRebel Airdopes 131",
+                                                    "sub_image1":"../../../Images/we03.webp",
+                                                    "sub_image2":"",
+                                                    "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                                                    "sub_price":"Rs. 1,299.00"
+                                                },
+                                                {
+                                                    "sub_catagory_id":"tr02",
+                                                    "sub_name":"TRebel BassHeads 100",
+                                                    "sub_image1":"../../../Images/tr02.webp",
+                                                    "sub_image2":"",
+                                                    "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                                                    "sub_price":"Rs. 399.00"
+                                                },
+                                                {
+                                                    "sub_catagory_id":"tr03",
+                                                    "sub_name":"TRebel Rockerz 450",
+                                                    "sub_image1":"../../../Images/tr03.webp",
+                                                    "sub_image2":"",
+                                                    "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                                                    "sub_price":"Rs. 1,499.00"
+                                                },
+                                                {
+                                                    "sub_catagory_id":"tr04",
+                                                    "sub_name":"TRebel BassHeads 242",
+                                                    "sub_image1":"../../../Images/tr04.png",
+                                                    "sub_image2":"",
+                                                    "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                                                    "sub_price":"Rs. 549.00"
+                                                }
+                                                
+                                               
+                                                
+                                                
+                                            ] },
+
+                                            {"catagory":"Limited Edition",
+                                                "catagory_id":"p09",
+                                                "img":"../../../Images/shop9.webp",
+                                                
+                                                "sub_catagory":
+                                                [
+                                                    {
+                                                        "sub_catagory_id":"le01",
+                                                        "sub_name":"Airdopes 131 - Captain America Marvel Edition",
+                                                        "sub_image1":"../../../Images/le01.webp",
+                                                        "sub_image2":"",
+                                                        "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                                                        "sub_price":"Rs. 1,499.00"
+                                                    },
+                                                    {
+                                                        "sub_catagory_id":"le02",
+                                                        "sub_name":"Airdopes 131 - Iron Man Marvel Edition",
+                                                        "sub_image1":"../../../Images/le02.webp",
+                                                        "sub_image2":"",
+                                                        "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                                                        "sub_price":"Rs. 1,499.00"
+                                                    },
+                                                    {
+                                                        "sub_catagory_id":"s1",
+                                                        "sub_name":"Airdopes 441 Sunburn Edition",
+                                                        "sub_image1":"../../../Images/s1.png",
+                                                        "sub_image2":"",
+                                                        "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                                                        "sub_price":"Rs. 2,999.00"
+                                                    },
+                                                    {
+                                                        "sub_catagory_id":"s6",
+                                                        "sub_name":"Airdopes 381 Sunburn Edition",
+                                                        "sub_image1":"../../../Images/s6.png",
+                                                        "sub_image2":"",
+                                                        "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                                                        "sub_price":"Rs. 2,499.00"
+                                                    }
+                                                    
+                                                   
+                                                    
+                                                    
+                                                ] },
+
+                                                {"catagory":"Misfit",
+                                                    "catagory_id":"p10",
+                                                    "img":"../../../Images/shop10.webp", 
+                                                    
+                                                    "sub_catagory":
+                                                    [
+                                                        {
+                                                            "sub_catagory_id":"mf01",
+                                                            "sub_name":"Misfit T200",
+                                                            "sub_image1":"../../../Images/mf01.webp",
+                                                            "sub_image2":"",
+                                                            "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                                                            "sub_price":"Rs. 1,499.00"
+                                                        },
+                                                        {
+                                                            "sub_catagory_id":"mf02",
+                                                            "sub_name":"Misfit T50 lite",
+                                                            "sub_image1":"../../../Images/mf02.webp",
+                                                            "sub_image2":"",
+                                                            "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                                                            "sub_price":"Rs. 799.00"
+                                                        },
+                                                        {
+                                                            "sub_catagory_id":"mf03",
+                                                            "sub_name":"Misfit T30 Trimmer",
+                                                            "sub_image1":"../../../Images/mf03.webp",
+                                                            "sub_image2":"",
+                                                            "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                                                            "sub_price":"Rs. 699.00"
+                                                        },
+                                                        {
+                                                            "sub_catagory_id":"mf04",
+                                                            "sub_name":"Misfit T150 Trimmer",
+                                                            "sub_image1":"../../../Images/mf04.webp",
+                                                            "sub_image2":"",
+                                                            "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                                                            "sub_price":"Rs. 1,299.00"
+                                                        }
+                                                        
+                                                       
+                                                        
+                                                        
+                                                    ] },
+
+                                                    {"catagory":"Immortal Gaming",
+                                                        "catagory_id":"p11",
+                                                        "img":"../../../Images/shop11.webp", 
+                                                        
+                                                        "sub_catagory":
+                                                        [
+                                                            {
+                                                                "sub_catagory_id":"ig01",
+                                                                "sub_name":"boAt Immortal 400",
+                                                                "sub_image1":"../../../Images/ig01.webp",
+                                                                "sub_image2":"",
+                                                                "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                                                                "sub_price":"Rs. 1,999.00"
+                                                            },
+                                                            {
+                                                                "sub_catagory_id":"ig02",
+                                                                "sub_name":"boAt Immortal 1300",
+                                                                "sub_image1":"../../../Images/ig02.webp",
+                                                                "sub_image2":"",
+                                                                "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                                                                "sub_price":"Rs. 3,499.00"
+                                                            },
+                                                            {
+                                                                "sub_catagory_id":"ig03",
+                                                                "sub_name":"boAt Immortal 700",
+                                                                "sub_image1":"../../../Images/ig03.webp",
+                                                                "sub_image2":"",
+                                                                "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                                                                "sub_price":"Rs. 2,499.00"
+                                                            },
+                                                            {
+                                                                "sub_catagory_id":"ig04",
+                                                                "sub_name":"boAt Immortal 1000D",
+                                                                "sub_image1":"../../../Images/ig04.webp",
+                                                                "sub_image2":"",
+                                                                "sub_description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, corporis.",
+                                                                "sub_price":"Rs. 2,499.00"
+                                                            }
+                                                            
+                                                           
+                                                            
+                                                            
+                                                        ] }
+                         
                      
                  
                  

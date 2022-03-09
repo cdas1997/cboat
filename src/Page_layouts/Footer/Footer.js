@@ -6,13 +6,14 @@ import {faFacebook,faYoutube,faInstagram,faTwitter,faLinkedinIn} from '@fortawes
 import './Footer.scss'
 import {Nav} from "react-bootstrap";
 import { Link } from 'react-router-dom';
+import ScrollToTop from '../../ScrollToTop/ScrollToTop'
 
 
 export default function Footer() {
     return (
         <>
       
-<footer className="container1">
+<footer  className='container1'>
 
 <div >
 <marquee scrollamount="10"  className='flaunt1'>
@@ -73,40 +74,40 @@ export default function Footer() {
                     <h2 className='fotf'>   SHOP</h2>
                     <ul>
                     <li>
-                    <Nav.Link className='nvlink' href='/gift-cards'>True Wireless Earbuds</Nav.Link>
+                    <Nav.Link className='nvlink' href='/shopproduct/Wireless Earbuds'>True Wireless Earbuds</Nav.Link>
                         </li>
                         <li>
-                        <Nav.Link className='nvlink' href='/gift-cards'>Wireless Headphones</Nav.Link>
+                        <Nav.Link className='nvlink' href='/shopproduct/Wireless Headphones'>Wireless Headphones</Nav.Link>
                         </li>
                         <li>
-                        <Nav.Link className='nvlink' href='/gift-cards'>Wired Headphones</Nav.Link>
+                        <Nav.Link className='nvlink' href='/shopproduct/Wired Earphones'>Wired Headphones</Nav.Link>
                         </li>
                         <li>
-                        <Nav.Link className='nvlink' href='/gift-cards'>Wireless Speakers</Nav.Link>
+                        <Nav.Link className='nvlink' href='/shopproduct/Wireless Speakers'>Wireless Speakers</Nav.Link>
                         </li>
                         <li>
-                            <Nav.Link className='nvlink' href='/gift-cards'>Home Audio</Nav.Link>
+                            <Nav.Link className='nvlink' href='/shopproduct/Home Audio'>Home Audio</Nav.Link>
                         </li>
                         <li>
-                        <Nav.Link className='nvlink' href='/gift-cards'>Mobile Accessories</Nav.Link>
+                        <Nav.Link className='nvlink' href='/shopproduct/Mobile Accessories'>Mobile Accessories</Nav.Link>
                         </li>
                         <li>
-                        <Nav.Link className='nvlink' href='/gift-cards'>Smart Watches</Nav.Link>
+                        <Nav.Link className='nvlink' href='/shopproduct/Smart Watches'>Smart Watches</Nav.Link>
                         </li>
                         <li>
-                        <Nav.Link className='nvlink' href='/gift-cards'>TRebel</Nav.Link>
+                        <Nav.Link className='nvlink' href='/shopproduct/TRebel'>TRebel</Nav.Link>
                         </li>
                         <li>
-                        <Nav.Link className='nvlink' href='/gift-cards'>Misfit</Nav.Link>
+                        <Nav.Link className='nvlink' href='/shopproduct/Misfit'>Misfit</Nav.Link>
                         </li>
                         <li>
                         <Nav.Link className='nvlink' href='/gift-cards'>Gift Card</Nav.Link>
                         </li>
                         <li>
-                        <Nav.Link className='nvlink' href='/login'>Rock In India</Nav.Link>
+                        <Nav.Link className='nvlink' href='/RockInIndia'>Rock In India</Nav.Link>
                         </li>
                         <li>
-                        <Nav.Link className='nvlink' href='/login' >Earn Rs.100</Nav.Link>
+                        <Nav.Link className='nvlink' href='/Earn' >Earn Rs.100</Nav.Link>
                         </li>
                         
                     </ul>
@@ -116,25 +117,25 @@ export default function Footer() {
                     <h2 className='fotf'>HELP</h2>
                     <ul>
                     <li>
-                        <Nav.Link className='nvlink' as={Link} to="/sub_catagory/p01">Track Your Order</Nav.Link>
+                        <Nav.Link className='nvlink'  href='/term'>Track Your Order</Nav.Link>
                         </li>
                         <li>
-                        <Nav.Link className='nvlink' as={Link} to="/sub_catagory/p02">Warranty & Support</Nav.Link>
+                        <Nav.Link className='nvlink'  href='/term'>Warranty & Support</Nav.Link>
                         </li>
                         <li>
-                        <Nav.Link className='nvlink' as={Link} to="/sub_catagory/p03">Return Policy</Nav.Link>
+                        <Nav.Link className='nvlink'  href='/term'>Return Policy</Nav.Link>
                         </li>
                         <li>
-                            <Nav.Link className='nvlink' as={Link} to="/contact-page">Service Centers</Nav.Link>
+                            <Nav.Link className='nvlink'  href='/term'>Service Centers</Nav.Link>
                         </li>
                         <li>
-                            <Nav.Link className='nvlink' as={Link} to="/contact-page">Bulk Order</Nav.Link>
+                            <Nav.Link className='nvlink'  href='/term'>Bulk Order</Nav.Link>
                         </li>
                         <li>
-                            <Nav.Link className='nvlink' as={Link} to="/contact-page">FAQs</Nav.Link>
+                            <Nav.Link className='nvlink'  href='/term'>FAQs</Nav.Link>
                         </li>
                         <li>
-                            <Nav.Link className='nvlink' as={Link} to="/contact-page">Why Buy Direct</Nav.Link>
+                            <Nav.Link className='nvlink'  href='/contact'>Contact Us</Nav.Link>
                         </li>
                     </ul>
 
@@ -143,29 +144,30 @@ export default function Footer() {
                     <h2 className='fotf'>COMPANY</h2>
                     <ul>
                         <li>
-                        <Nav.Link className='nvlink' as={Link} to="/sub_catagory/p01">About boAt</Nav.Link>
+                        <Nav.Link className='nvlink' href='/about'>About boAt</Nav.Link>
                         </li>
                         <li>
-                        <Nav.Link className='nvlink' as={Link} to="/sub_catagory/p02">News</Nav.Link>
+                        <Nav.Link className='nvlink'  href='/news'>News</Nav.Link>
                         </li>
                         <li>
                         <Nav.Link className='nvlink' as={Link} to="/sub_catagory/p03">Read Our Blog</Nav.Link>
                         </li>
                         <li>
-                            <Nav.Link className='nvlink' as={Link} to="/sub_catagory/p04">Security</Nav.Link>
+                            <Nav.Link className='nvlink' href='/security'>Security</Nav.Link>
                         </li>
                         <li>
-                            <Nav.Link className='nvlink' as={Link} to="/sub_catagory/p04">Terms Of Service</Nav.Link>
+                            <Nav.Link className='nvlink' href='/term'>Terms Of Service</Nav.Link>
                         </li>
                         <li>
-                            <Nav.Link className='nvlink' as={Link} to="/sub_catagory/p04">Privacy Policy</Nav.Link>
+                            <Nav.Link className='nvlink'  href='/term'>Privacy Policy</Nav.Link>
                         </li>
                         <li>
-                            <Nav.Link className='nvlink' as={Link} to="/sub_catagory/p04">Partner Offers T&Cs</Nav.Link>
+                            <Nav.Link className='nvlink' href='/term'>Partner Offers T&Cs</Nav.Link>
                         </li>
                         <li>
-                            <Nav.Link className='nvlink' as={Link} to="/sub_catagory/p04">Investor Relations</Nav.Link>
+                            <Nav.Link className='nvlink'  href='/term'>Investor Relations</Nav.Link>
                         </li>
+                        
                     </ul>
 
                 </div>
@@ -174,7 +176,7 @@ export default function Footer() {
 
             </div>
             
-     <div className="col-6 col-lg-2">
+     <div className="col-6 col-lg-2" >
                     <h2 className='fotf'>Follow Us</h2>
                     <div className="row">
                         <div className="col-2 mx-auto">
@@ -223,7 +225,7 @@ export default function Footer() {
 
 
     
-   <div className="row">
+   <div className="row" >
     <div className="col-12 col-lg-12 mx-auto" >
         <div className="row">
 
@@ -236,15 +238,25 @@ export default function Footer() {
             <img src="../../../Images/googleplay.png" alt="Payment method"   className='link3'/>
             <img src="../../../Images/apple.png" alt="Payment method"  className='link4'/>
             </div>
+           
 
         </div>
       </div>
+      <ScrollToTop  />
   </div>
 
     <hr />
             <div className="copyright">
-                <p >Copyright © 2021 by <a className="link1" href="http://localhost:3000/">cmart.com</a> . All Right Reserved. </p>
+
+                <p >Copyright © 2021 by <a className="link1" href="http://localhost:3000/">cboAt.com</a> . All Right Reserved. </p>
+           
             </div>
+            <div>
+                
+            </div>
+
+
+            
     
 </footer>
 

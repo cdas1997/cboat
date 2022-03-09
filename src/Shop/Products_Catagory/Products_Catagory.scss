@@ -1,0 +1,35 @@
+.shop{
+    max-width: 95%;
+    margin-left: 10px;
+    list-style: none !important;
+    color: aqua;
+}
+.drop-items{
+    list-style: none!important;
+    background-color: black;
+    max-height: 450px;
+    max-width: 350px;
+}
+.shopf{
+color: white;
+}
+.link1{
+    margin-top: 0px !important;
+    margin-bottom: 50px;
+}
+.link1:hover{
+    color: rgb(180, 21, 21);
+    }
+
+    .shopimg{
+        max-height: 270px;
+        max-width: 230px;
+        transition: all .5s ease-in-out;
+        margin-bottom: 0px;
+       margin-top: 1px;
+     
+      }
+      .shopimg:hover{
+       max-height: 305px;
+       max-width: 275px;
+      }

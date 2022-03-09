@@ -1,13 +1,14 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap'
 import DailyDealsProducts from '../../BoatProducts/DailyDeals/DailyDealsProducts'
-import SunburnProducts from '../../BoatSunburn/SunburnProducts/SunburnProducts'
+// import SunburnProducts from '../../BoatSunburn/SunburnProducts/SunburnProducts'
+// import Products_Catagory from '../../Shop/Products_Catagory/Products_Catagory'
 import './Home.scss'
 
 export default function Home() {
   return (
     <>
-    
+    <div className='home'>
     
     <Carousel>
   <Carousel.Item interval={500}>
@@ -44,7 +45,7 @@ export default function Home() {
   </Carousel.Item>
 </Carousel>
 
-<div >
+
 <marquee scrollamount="10" className='flaunt'>
       
       <span className="text-stroke"></span>
@@ -78,10 +79,14 @@ export default function Home() {
     </marquee>
 
     <div className='dailydeals'> <DailyDealsProducts /></div>
-      <div className='dailydeals1'>
-      <SunburnProducts />
-        </div> 
-</div>
+  
+     
+      
+ 
+
+ 
+     
+    </div>  
     </>
   )
 }

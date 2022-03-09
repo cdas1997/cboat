@@ -36,12 +36,43 @@
           "P_Image":"../../../Images/s6.png",
           "P_price":"Rs. 2,499.00"
         },
-        {"P_name":"boAt Stone 1200 Sunburn Edition",
-            "P_id":"s07",
+        {"P_name":"Airdopes 441 Sunburn Edition",
+          "P_id":"s07",
+          "descripsion":"Limited Edition",
+          "P_Image":"../../../Images/s1.png",
+          "P_price":"Rs. 2,999.00"
+        },
+        {"P_name":"boAt Rockerz 550 Sunburn Edition",
+            "P_id":"s08",
             "descripsion":"Limited Edition",
-            "P_Image":"../../../Images/s7.png",
+            "P_Image":"../../../Images/s2.png",
+            "P_price":"Rs. 1,999.00"
+          },
+          {"P_name":"boAt Bassheads 172 Sunburn Edition",
+            "P_id":"s09",
+            "descripsion":"Limited Edition",
+            "P_Image":"../../../Images/s3.png",
+            "P_price":"Rs. 549.00"
+          },
+          {"P_name":"boAt Stone 1200F Sunburn Edition",
+            "P_id":"s10",
+            "descripsion":"Limited Edition",
+            "P_Image":"../../../Images/s4.png",
             "P_price":"Rs. 3,999.00"
-          }
+          },
+          {"P_name":"boAt BassHeads 152 Sunburn Edition",
+              "P_id":"s11",
+              "descripsion":"Limited Edition",
+              "P_Image":"../../../Images/s5.png",
+              "P_price":"Rs. 549.00"
+            },
+            {"P_name":"boAt Airdopes 381 Sunburn Edition",
+              "P_id":"s12",
+              "descripsion":"Limited Edition",
+              "P_Image":"../../../Images/s6.png",
+              "P_price":"Rs. 2,499.00"
+            }
+        
             
     ]
     }

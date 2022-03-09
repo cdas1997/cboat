@@ -3,17 +3,19 @@ import './GiftCard.scss'
 import {Carousel} from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faStar} from '@fortawesome/free-solid-svg-icons'
-
+import {Nav} from 'react-bootstrap'
+import {Link} from 'react-router-dom'
 function GiftCard() {
   return (
     <div>
         <div className="row" id='giftcardcontainer'>
         <div className='naviga'>
-            <a className='pagepath2' href="/">Home</a> 
-            <h5 className='pagepath1'>/GiftCard</h5>
-            <span className='lowprice'>Lowest Price</span>
+        <Nav.Link className='pagepath2' as={Link} to="/">Home</Nav.Link> 
+            <h5 className='pagepath1'>/ Gift Cards</h5>
+           
             </div>
-         
+            <div>  <span className='lowprice'>Lowest Price</span></div>
+          
             <div className="col-6 col-lg-6" id='giftcardcom'>
            
  <Carousel className='cardcarousal'>

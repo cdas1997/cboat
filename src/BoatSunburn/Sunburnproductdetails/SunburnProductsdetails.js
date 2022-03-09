@@ -1,7 +1,7 @@
 import React from 'react'
 import SunData from '../Sunburn.json'
 import { useParams } from 'react-router-dom'
-import {Card,Button} from 'react-bootstrap'
+import {Card,Button,Nav} from 'react-bootstrap'
 import {Link} from 'react-router-dom'
 import './SunburnProductsdetails.scss'
 
@@ -20,15 +20,15 @@ export default function SunburnProductsdetails() {
        
         <div className="Dcontainer" >
             <div className='naviga'>
-            <a className='pagepath2' href="/">Home</a> 
-            <h5 className='pagepath1'>/{data.P_name}</h5>
+            <Nav.Link className='pagepath2' as={Link} to="/">Home</Nav.Link> 
+            <h5 className='pagepath1'>/ {data.P_name}</h5>
             </div>
             
             
           
             {
                    
-                    <Card className='div1' key={data.P_id} style={{ width: '25rem' }}>
+                    <Card className='div23' key={data.P_id} style={{ width: '25rem' }}>
   <Card.Img className='Dimg' variant="top" src={data.P_Image} />
   <Card.Body>
     <Card.Title ><Link to={`/SunburnProductsdetails/${data.P_id}`} className='Dlink'>{data.P_name} </Link></Card.Title>
@@ -42,8 +42,8 @@ export default function SunburnProductsdetails() {
      
     </Card.Text>
     
-    <Button variant="dark" className='Dbutn'><Link to={`/sub_catagory/${data.P_id}`} className='Dlink'>ADD TO CART</Link></Button>
-    <Button variant="dark" className='Dbutn'><Link to={`/SunburnProductsdetails/${data.P_id}`} className='Dlink'>BUY NOW</Link></Button>
+    <Button variant="dark" className='Dbutn' disabled><Link to={`/SunburnProductsdetails/${data.P_id}`} className='Dlink1'>ADD TO CART</Link></Button>
+    <Button variant="dark" className='Dbutn' disabled><Link to={`/SunburnProductsdetails/${data.P_id}`} className='Dlink1'>BUY NOW</Link></Button>
   </Card.Body>
            </Card>
                     
