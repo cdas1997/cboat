@@ -9,6 +9,7 @@ import SunburnProducts from '../BoatSunburn/SunburnProducts/SunburnProducts'
 import Home from '../Components/Home/Home'
 import PNF from '../Components/PageNotFound/PNF'
 import Earn from '../Earn 100/Earn'
+import BulkOrder from '../BulkOrder/BulkOrder'
 import GiftCard from '../Gift Cards/GiftCard'
 import Footer from '../Page_layouts/Footer/Footer'
 import Header from '../Page_layouts/Header/Header'
@@ -73,6 +74,7 @@ const Products_Details=lazy(()=>import('../Shop/Products_Details/Products_Detail
                    
                     <Route path="RockInIndia" element={<RockInIndia />} />
                     <Route path="Earn" element={<Earn />} />
+                    <Route path="BulkOrder" element={<BulkOrder />} />
 
                     <Route path="*" element={<PNF />} />
                 </Routes>

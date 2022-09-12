@@ -129,7 +129,7 @@ export default function Footer() {
                             <Nav.Link className='nvlink'  href='/term'>Service Centers</Nav.Link>
                         </li>
                         <li>
-                            <Nav.Link className='nvlink'  href='/term'>Bulk Order</Nav.Link>
+                            <Nav.Link className='nvlink'  href='/BulkOrder'>Bulk Order</Nav.Link>
                         </li>
                         <li>
                             <Nav.Link className='nvlink'  href='/term'>FAQs</Nav.Link>
